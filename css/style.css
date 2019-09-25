@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    white-space: nowrap;
+}
+
+
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: linear-gradient(#f57c83, #f9e654);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1ed760;
+}
+
+*:focus {
+    outline: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 8%;
+    justify-content: space-between;
+}
+
+.left-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.left-logo>img {
+    width: 140px;
+    height: 40px;
+
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    white-space: nowrap;
+}
+
+.right-nav>ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.right-nav>li {
+    display: inline-block;
+}
+
+.section_wraper {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.scdn.co/i/home/hero-burst-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    height: 900px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 140 0 140;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: -3px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 9px 0 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.action {
+    background-color: #1db954;
+    color: white;
+    width: 252px;
+    height: 48px;
+    border-radius: 25px;
+    margin: 16px 0 0;
+    border-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+.action:hover {
+    background-color: #1ED760;
+    color: white;
+    width: 252px;
+    height: 48px;
+    border-radius: 25px;
+    margin: 16px 0 0;
+    border-style: none;
+    box-shadow: 0px 1px 5px 1px rgba(10, 10, 10, 0.1);
+}
+
+
+footer {
+    background-color: black;
+    height: 530px;
+
+}
+
+.upperfooter {
+    background-color: black;
+    display: flex;
+    margin: 0 8%;
+    padding-top: 40px;
+    height: 420px;
+}
+
+
+.column {
+    display: flex;
+    flex: 1;
+    margin-right: 40px;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.columnlogo {
+    display: flex;
+    flex: 3;
+    /* margin-left: 20%; */
+    justify-content: flex-end;
+
+}
+
+.column>img {
+    width: 100%;
+    min-width: 80px;
+    margin-top: 6%;
+}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+h5 {
+    font-variant: small-caps;
+    color: gray;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+}
+
+.circle-icon {
+    background: gray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.midfooter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+    height: 30px;
+    margin: 0 8%;
+}
+
+.midfooter>p {
+    font-size: 12px;
+    color: #919294;
+    display: inline-block;
+}
+
+.midfooter>p>a {
+    font-size: 12px;
+    color: #919294;
+    text-decoration: none;
+}
+
+.midfooter>img {
+    height: auto;
+    width: 20px;
+    margin: 0 5px;
+}
+
+.lowerfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    align-items: center;
+    height: 50px;
+}
+
+.left-footer {
+    flex: 10;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.left-footer>p {
+    font-size: 12px;
+    color: #919294;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.right-footer {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+.right-footer>p {
+    font-size: 12px;
+    color: #919294;
+    display: inline-block;
+    padding: 0 2%;
+}
